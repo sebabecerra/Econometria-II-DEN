@@ -1,27 +1,24 @@
 # Tarea 1 — Econometría II
 
-Repositorio preparado para ejecutar la tarea con la base `NLS80V2.dta` en Google Colab.
+Repositorio con la base `NLS80V2.dta` y el desarrollo completo de las cinco preguntas.
+
+## Abrir en Google Colab
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebabecerra/Econometria-II-DEN/blob/main/Tarea_1_NLS80V2_Colab.ipynb)
+
+Si Colab solicita la base, sube el archivo `data/NLS80V2.dta` desde el repositorio.
 
 ## Contenido
 
-- `Tarea_1_NLS80V2_Colab.ipynb`: notebook con las cinco respuestas.
+- `Tarea_1_NLS80V2_Colab.ipynb`: nueva versión completa y ejecutada.
 - `data/NLS80V2.dta`: base utilizada.
 - `requirements.txt`: librerías necesarias.
 
-## Abrir directamente en Colab
-
-1. Entra a [Google Colab](https://colab.research.google.com/).
-2. Selecciona **GitHub** y busca `sebabecerra/Econometria-II-DEN`.
-3. Abre `Tarea_1_NLS80V2_Colab.ipynb`.
-4. Ejecuta las celdas en orden.
-
-Si Colab no encuentra la base automáticamente, la primera celda mostrará una ventana para subir `data/NLS80V2.dta`.
-
 ## Resultados principales
 
-- Retorno estimado de la educación manteniendo experiencia constante: `0.08383`.
-- Efecto de un año adicional de educación a edad fija: `0.05822` log puntos.
-- Efecto de la política de educación mínima de 12 años: `8.98` unidades de salario.
-- Error estándar bootstrap del efecto: aproximadamente `1.31`.
+- Modelo MCO: 935 observaciones y R² de `0.1282`.
+- Efecto promedio de un año adicional de educación a edad fija: `0.05822` log puntos.
+- Política de educación mínima de 12 años: `0.01083` log puntos o `8.98` unidades de salario.
+- Error estándar del efecto: `0.00124` clásico y `0.00116` robusto HC1.
 
 Los resultados son predicciones del modelo MCO y requieren supuestos adicionales para interpretarse causalmente.
