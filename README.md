@@ -18,6 +18,9 @@ Para ejecutar el notebook en Colab, sube `NLS80V2.dta` a la sesión cuando corre
 
 ## Tarea 2
 
+[![Abrir solución en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebabecerra/Econometria-II-DEN/blob/main/Tarea2/Tarea2_Twins_Bootstrap_Solucion.ipynb)
+
 - [`Tarea2/Tarea_2_Twins_Bootstrap.pdf`](Tarea2/Tarea_2_Twins_Bootstrap.pdf): instrucciones de la tarea.
+- [`Tarea2/Tarea2_Twins_Bootstrap_Solucion.ipynb`](Tarea2/Tarea2_Twins_Bootstrap_Solucion.ipynb): solución reproducible en Python.
 - [`Tarea2/twinsak.dta`](Tarea2/twinsak.dta): base de datos utilizada.
 - [Lectura sobre bootstrap e imputaciones múltiples](Tarea2/2010-the-bootstrap-and-multiple-imputations-harnessing-increased-computing-power-for-improved-statistical-tests.pdf)
