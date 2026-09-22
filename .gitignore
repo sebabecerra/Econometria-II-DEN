@@ -1,3 +1,6 @@
 .DS_Store
 .ipynb_checkpoints/
 __pycache__/
+
+# Bases grandes locales
+Tarea3/data/casen_2024.dta

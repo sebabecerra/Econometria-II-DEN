@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/sbc/projects/PhD-Business-Economics-DEN-UDD/Econometria-II-DEN/Tarea
+> 3/Tarea3_resultados.log
+  log type:  text
+ opened on:  18 Aug 2026, 07:39:56
+
+. 
+. use "data/casen_2024.dta", clear
+(Encuesta Casen 2024)
+
+. 
+end of do-file
+
+. br
+
+. do "/var/folders/gx/6vxmvb692_5gb5lj_qpn76n80000gn/T//SD12166.000000"
+
+. clear all
+
+. set more off
+
+. set seed 12345
+
+. 
+. cd "/Users/sbc/projects/PhD-Business-Economics-DEN-UDD/Econometria-II-DEN/Tarea3/"
+/Users/sbc/projects/PhD-Business-Economics-DEN-UDD/Econometria-II-DEN/Tarea3
+
+. 
+. capture log close
